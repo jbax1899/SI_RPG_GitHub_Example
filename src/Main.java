@@ -23,6 +23,7 @@ public class Main {
         hero.getInventory().addItem(sword);
         hero.getInventory().addItem(shield);
         hero.getInventory().addItem(potion);
+        hero.getInventory().addItem(potion);
 
         hero.equipWeapon(sword);
         hero.equipArmor(shield);
