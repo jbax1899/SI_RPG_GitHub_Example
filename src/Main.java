@@ -15,6 +15,7 @@
 
 public class Main {
     public static void main(String[] args) {
+
         PlayerCharacter hero = new PlayerCharacter("Arin", 1, 100, 10);
         Weapon sword = new Weapon("Iron Sword", "Basic sword", 5.0, 8);
         Armor shield = new Armor("Wooden Shield", "Weak but sturdy", 6.0, 3);
