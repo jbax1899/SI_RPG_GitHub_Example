@@ -11,4 +11,9 @@ public class NonPlayerCharacter extends Character {
         this.assignedQuest = quest;
         System.out.println(name + " has a quest for you: " + quest.getTitle());
     }
+
+    public String getDialogue() {
+        //TODO
+        return "Sample dialogue - Needs implemented!";
+    }
 }

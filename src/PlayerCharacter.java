@@ -18,6 +18,5 @@ public class PlayerCharacter extends Character {
 
     public void equipArmor(Armor armor) {
         this.equippedArmor = armor;
-        // Optional: Apply defense logic
     }
 }

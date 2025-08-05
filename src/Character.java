@@ -11,6 +11,10 @@ public abstract class Character {
         this.attackPower = attackPower;
     }
 
+    public int getLevel() {
+        return level;
+    }
+
     public void attack(Character target) {
         int damage = this.attackPower;
         target.health -= damage;
